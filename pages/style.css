@@ -1,12 +1,12 @@
 @import url(/vendor/fonts/fonts.css);
 
-@import url(../blocks/body/body.css);
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/__button/popup__button.css);
-@import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__text/popup__text.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/popup/__title/popup__title.css);
+@import url(/blocks/body/body.css);
+@import url(/blocks/popup/popup.css);
+@import url(/blocks/popup/__button/popup__button.css);
+@import url(/blocks/popup/__container/popup__container.css);
+@import url(/blocks/popup/__text/popup__text.css);
+@import url(/blocks/popup/_opened/popup_opened.css);
+@import url(/blocks/popup/__title/popup__title.css);
 
 * {
   margin: 0;
@@ -53,3 +53,94 @@
 #larva {
   display: none;
 }
+
+/* For Git Pages */
+/*
+.body {
+  font-family: 'Salwey', sans-serif;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.3s, opacity 0.4s linear;
+}
+
+.popup__button {
+  align-self: center;
+  font-family: 'Salwey', sans-serif;
+  margin-top: 30px;
+  width: 200px;
+  height: 75px;
+  font-size: 40px;
+  box-shadow: 5px -5px rgba(255, 255, 255, .7);
+  border: 2px solid #000;
+  border-radius: 1rem;
+  background-color: #BCE954;
+  transform: skew(-5deg);
+}
+
+.popup__button:hover {
+  animation: shake 0.5s linear;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.popup__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-self: center;
+  align-self: center;
+  width: 50%;
+  height: 50%;
+  padding: 34px 36px 37px;
+  background-color: #347C2C;
+  box-sizing: border-box;
+  box-shadow: 10px 0px 25px rgba(255, 255, 255, 0.5);
+  border: 3px solid #000;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__text {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #fff;
+}
+
+.popup__title {
+  font-size: 40px;
+  line-height: 125%;
+  text-align: center;
+  color: #fff;
+}
+
+.popup_opened {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  opacity: 1;
+}
+*/
