@@ -1,13 +1,13 @@
-@import url(/vendor/fonts/fonts.css);
-/*
-@import url(/blocks/body/body.css);
-@import url(/blocks/popup/popup.css);
-@import url(/blocks/popup/__button/popup__button.css);
-@import url(/blocks/popup/__container/popup__container.css);
-@import url(/blocks/popup/__text/popup__text.css);
-@import url(/blocks/popup/_opened/popup_opened.css);
-@import url(/blocks/popup/__title/popup__title.css);
-*/
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__title/popup__title.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@
 }
 
 /* For Git Pages */
-
+/*
 .body {
   font-family: 'Salwey', sans-serif;
 }
@@ -143,3 +143,4 @@
   visibility: visible;
   opacity: 1;
 }
+*/
