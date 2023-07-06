@@ -1,0 +1,55 @@
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__title/popup__title.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  background: url('../images/background.png');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#obstacle {
+  display: none;
+}
+
+#bull {
+  display: none;
+}
+
+#egg {
+  display: none;
+}
+
+#toad {
+  display: none;
+}
+
+#toads {
+  display: none;
+}
+
+#larva {
+  display: none;
+}

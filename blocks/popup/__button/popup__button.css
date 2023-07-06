@@ -1,0 +1,25 @@
+.popup__button {
+  align-self: center;
+  font-family: 'Salwey', sans-serif;
+  margin-top: 30px;
+  width: 200px;
+  height: 75px;
+  font-size: 40px;
+  box-shadow: 5px -5px rgba(255, 255, 255, .7);
+  border: 2px solid #000;
+  border-radius: 1rem;
+  background-color: #BCE954;
+  transform: skew(-5deg);
+}
+
+.popup__button:hover {
+  animation: shake 0.5s linear;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}

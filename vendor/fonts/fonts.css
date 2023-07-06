@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Salwey';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Salwey.woff') format('woff'), 
+    url('./Salwey.woff2') format('woff2');
+}
